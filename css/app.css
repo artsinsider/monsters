@@ -1,0 +1,35 @@
+#app{
+    font-family: 'Gudea', sans-serif;
+}
+
+.health-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+.health {
+    text-align: center;
+}
+
+.name {
+    padding: 15px;
+}
+
+.balance-health {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #2ca51e;
+}
+
+/*.balance-health.user {*/
+    /*background: #2ca51e;*/
+/*}*/
+
+/*.balance-health.monster {*/
+    /*background: #2ca51e;*/
+/*}*/
+

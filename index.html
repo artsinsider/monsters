@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MONSTER-BATTLE</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="health-bar">
+                <div class="health">
+                    <div class="name" >USER</div>
+                    <div class="balance-health"
+                        :style="{width: playerHealth / 2 + '%' }"
+                    >
+                        {{ playerHealth }}
+                    </div>
+                </div>
+                <div class="health">
+                    <div class="name" >MONSTER</div>
+                    <div class="balance-health"
+                        :style="{ width: monsterHealth / 2 + '%'  }"
+                    >
+                        {{ monsterHealth }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
